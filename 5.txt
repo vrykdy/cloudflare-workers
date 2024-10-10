@@ -1,0 +1,12 @@
+Variable Name	Required	default value	Example	Remark
+PROXY_HOSTNAME	√		github.com	Proxy address hostname
+PROXY_PROTOCOL	×	https	https	Proxy Address Protocol
+PATHNAME_REGEX	×		^/jonssonyan/	Proxy address path regular expression
+UA_WHITELIST_REGEX	×		(curl)	User-Agent whitelist regular expression
+UA_BLACKLIST_REGEX	×		(curl)	User-Agent blacklist regular expression
+IP_WHITELIST_REGEX	×		(192.168.0.1)	IP Whitelist Regular Expression
+IP_BLACKLIST_REGEX	×		(192.168.0.1)	IP Blacklist Regular Expression
+REGION_WHITELIST_REGEX	×		(JP)	Region whitelist regular expression
+REGION_BLACKLIST_REGEX	×		(JP)	Region blacklist regular expression
+URL302	×		https://github.com/jonssonyan/cf-workers-proxy	302 Jump address
+DEBUG	×	false	false	Enable debugging
